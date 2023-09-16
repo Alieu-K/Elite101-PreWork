@@ -3,9 +3,9 @@
 # Define Functions
 
 def user_query():
-  move = True
+  user_choice = True
   
-  while move is True:
+  while user_choice is True:
     print("\nHow may I assit you?")
     
     print("-------------------")
@@ -23,7 +23,7 @@ def user_query():
 
     if choice == "5":
       print(f"Bye bye {name}")
-      move = False
+      user_choice = False
 
 
 # Program itself
@@ -33,11 +33,11 @@ print("------------------------------------------")
 name = input("What is your name? ")
 age = int()
 
-contin = True
-while contin is True:
+get_age = True
+while get_age is True:
   try:
     age = int(input("How old are you? "))
-    contin = False
+    get_age = False
   except ValueError:
     print("That's not a number, try again")
   
