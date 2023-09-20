@@ -2,7 +2,7 @@
 
 This is a repository created by *Alieu*
 
-##Usage
+## Usage
 
 Run this Command to Execute the Application:
 
