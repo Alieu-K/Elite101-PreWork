@@ -25,7 +25,6 @@ def user_query():
       print(f"Bye bye {name}")
       user_choice = False
 
-
 # Program itself
 print("Internet's Handy Chatbot")
 print("------------------------------------------")
@@ -42,7 +41,11 @@ while get_age is True:
     print("That's not a number, try again")
   
   if age == 0:
-    print("I know you ain't zero years old but we'll run with it anyways.")
+    print("I know you ain't zero years old but we'll run with it anyway")
+  elif age >= 1 and age <= 13:
+    print("You should go play with legos or instead of using this app but alas.")
+  elif age > 13 and age <= 20:
+    print("Hey, please focus on deadlines.")
   
 print(f"Hello {name}, welcome to the Internet's Handy Chatbot.")
 
