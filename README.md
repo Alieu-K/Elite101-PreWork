@@ -6,6 +6,6 @@ This is a repository created by *Alieu*
 
 Run this Command to Execute the Application:
 
-`python main.py`
+`python sucks`
 
 '''
